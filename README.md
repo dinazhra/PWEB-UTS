@@ -1,4 +1,4 @@
-#AgroMart Pupuqu
+##AgroMart Pupuqu
 Sistem Informasi Pengelolaan Toko Pupuk.
 ## AgroMart Pupuqu merupakan sistem yang membantu dalam pengelolaan produk pupuk untuk memudahkan admin dalam melihat data produk.
 ## Fitur 
