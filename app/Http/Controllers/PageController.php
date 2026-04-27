@@ -39,17 +39,13 @@ class PageController extends Controller
         $username = $request->username;
 
         $produk = [
-                  ["id" => 1, "nama" => "Urea", "harga" => "50000", "jumlah" => "17", "gambar" => "urea.png"],
-                  ["id" => 2, "nama" => "NPK", "harga" => "75000", "jumlah" => "10", "gambar" => "npk.png"],
-                  ["id" => 3, "nama" => "Kompos", "harga" => "35000", "jumlah" => "25", "gambar" => "kompos.png"],
-                  ["id" => 4, "nama" => "Kandang", "harga" => "20000", "jumlah" => "6", "gambar" => "pupukkandang.png"],
+                  ["nama" => "Urea", "harga" => "50000", "jumlah" => "17", "gambar" => "urea.png"],
+                  ["nama" => "NPK", "harga" => "75000", "jumlah" => "10", "gambar" => "npk.png"],
+                  ["nama" => "Kompos", "harga" => "35000", "jumlah" => "25", "gambar" => "kompos.png"],
+                  ["nama" => "Kandang", "harga" => "20000", "jumlah" => "6", "gambar" => "pupukkandang.png"],
         ];
 
         return view('pengelolaan', ["produk" => $produk, "username" => $username]);
-    }
-
-    public function show($id){
-        return view('produk.show', ['id' => $id]);
     }
 
 }
